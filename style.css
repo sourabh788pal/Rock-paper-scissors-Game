@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid navy;
+    padding:20px;
+}
+h1{
+    font-weight: bold;
+    margin: 12px;
+}
+h3{
+    font-size: 2em;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    border-radius: 50%;
+    border: none;
+    padding: 10px;
+}
+#result{
+    font-size: 1.5em;
+}
+#score p{
+    display: inline;
+    padding:10px;
+    font-size: 1.2em;
+}
+#draw{
+    font-size: 1.2em;
+}
